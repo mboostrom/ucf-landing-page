@@ -1,6 +1,7 @@
 @import "./foundation/settings";
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
+@import url("http://fonts.cdnfonts.com/css/gotham");
 // place global css here
 *,
 *::before,
@@ -11,4 +12,88 @@
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
+}
+
+.black-bar {
+  height: 47px;
+  width: auto;
+  background-color: black;
+}
+
+.yellow-bar {
+  height: 59px;
+  width: auto;
+  background-color: #ffcc00;
+}
+
+.nav {
+  background-image: url("images/top-bar.png");
+  height: 106px;
+  width: 1193px;
+  top: 0px;
+  left: 121px;
+  position: fixed;
+}
+
+.header {
+  background-image: url("images/header.png");
+  background-position: right;
+  background-size: fill;
+  width: 1788px;
+  height: 584px;
+  left: -288px;
+  position: fixed;
+}
+
+.header h2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 41px;
+  font-weight: bold;
+  top: 197px;
+  left: 504px;
+  position: fixed;
+}
+
+.info-form {
+  top: 172px;
+  left: 941px;
+  width: 418px;
+  height: 639px;
+  position: fixed;
+  background-color: #535353;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 93px;
+  padding-top: 42px;
+}
+
+.more-info {
+  font-family: "Gotham", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.info-p {
+  font-family: "Gotham", sans-serif;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 47px;
+}
+
+.form-text {
+  border-radius: 4px;
+  color: #666666;
+}
+
+.request-info-button {
+  background-color: #ffcc00;
+  color: black;
+  width: 318px;
+  height: 50px;
+  margin-top: 44px;
+  border-radius: 4px;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
