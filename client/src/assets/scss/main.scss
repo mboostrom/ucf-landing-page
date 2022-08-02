@@ -2,6 +2,7 @@
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
 @import url("http://fonts.cdnfonts.com/css/gotham");
+@import "~bootstrap/scss/bootstrap";
 // place global css here
 *,
 *::before,
@@ -26,13 +27,12 @@
   background-color: #ffcc00;
 }
 
-.nav {
+.nav-pic {
   background-image: url("images/top-bar.png");
   height: 106px;
   width: 1193px;
-  top: 0px;
-  left: 121px;
-  position: fixed;
+  margin-top: -106px;
+  margin-left: 121px;
 }
 
 .header {
@@ -41,25 +41,26 @@
   background-size: fill;
   width: 1788px;
   height: 584px;
-  left: -288px;
-  position: fixed;
+  margin-left: -288px;
+  margin-top: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header h2 {
   font-family: "Gotham", sans-serif;
   font-size: 41px;
   font-weight: bold;
-  top: 197px;
-  left: 504px;
-  position: fixed;
+  margin-left: 170px;
+  margin-bottom: 200px;
 }
 
 .info-form {
-  top: 172px;
-  left: 941px;
+  margin-top: -500px;
+  margin-left: 941px;
   width: 418px;
   height: 639px;
-  position: fixed;
   background-color: #535353;
   padding-left: 50px;
   padding-right: 50px;
@@ -84,6 +85,16 @@
 .form-text {
   border-radius: 4px;
   color: #666666;
+  width: 100%;
+}
+
+label {
+  width: 100%;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
 }
 
 .request-info-button {
@@ -96,4 +107,97 @@
   font-family: "Gotham", sans-serif;
   font-weight: bold;
   font-size: 18px;
+}
+
+.home-page-info {
+  width: 1200px;
+  margin: auto;
+}
+
+.tab-group {
+  width: 396px !important;
+  height: 313px !important;
+  border: 1px solid #707070;
+}
+
+.program-head {
+  font-family: "Gotham", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.yellow-line-1 {
+  border: 4px solid #ffcc00;
+  width: 192px;
+  margin-bottom: 38px;
+}
+
+.program-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-detail h2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 88px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.tab-detail p {
+  font-family: "Gotham", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.program-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.program-middle-div {
+  border: 1px solid #707070;
+  text-align: center;
+  width: 396px;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-middle-div h2{
+  font-family: "Gotham", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.program-middle-div p{
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.program-right {
+  width: 396px;
+  height: 313px;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-pic {
+  background-image: url("images/college-award.png");
+  width: 150px;
+  height: 150px;
 }

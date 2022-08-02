@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { hot } from "react-hot-loader/root";
 
 import "../assets/scss/main.scss";
+
 import HomePage from "./HomePage";
 
 
