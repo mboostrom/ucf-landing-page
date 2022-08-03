@@ -5,8 +5,7 @@ import TabGroup from "./TabGroup"
 const ProgramGlance = (props) => {
   return (
     <div className="program-glance">
-      <h3 className="program-head">PROGRAM AT A GLANCE</h3>
-      <div className="yellow-line-1"></div>
+      <h3 className="program-head"><span className="underline">PROGRAM</span> AT A GLANCE</h3>
       <div className="program-row">
       <TabGroup />
       <div className="program-middle">

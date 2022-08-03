@@ -2,6 +2,12 @@ import React from "react"
 
 import RequestInfoForm from "./RequestInfoForm"
 import ProgramGlance from "./ProgramGlance"
+import ApplyNowSection from "./ApplyNowSection"
+import AppDeadline from "./AppDeadline"
+import VideoContainer from "./VideoContainer"
+import WhyUCF from "./WhyUCF"
+import Testimonials from "./Testimonials"
+import Resources from "./Resources"
 
 const HomePage = (props) => {
   return (
@@ -21,7 +27,20 @@ const HomePage = (props) => {
       <RequestInfoForm />
       <div className="home-page-info">
         <ProgramGlance />
+        <ApplyNowSection />
       </div>
+      <AppDeadline />
+      <VideoContainer />
+      <div className="home-page-info">
+        <WhyUCF />
+      </div>
+      <Testimonials />
+      <Resources />
+      <div className="apply-now-bar">
+        <h2>Apply Now</h2>
+        <div className="arrow-button"></div>
+      </div>
+      <div className="footer"></div>
     </div>
   )
 }
