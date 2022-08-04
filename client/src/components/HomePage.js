@@ -40,7 +40,9 @@ const HomePage = (props) => {
         <h2>Apply Now</h2>
         <div className="arrow-button"></div>
       </div>
-      <div className="footer"></div>
+      <div className="footer-block">
+        <div className="footer"></div>
+      </div>
     </div>
   )
 }
