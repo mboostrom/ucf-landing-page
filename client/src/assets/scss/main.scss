@@ -340,6 +340,7 @@ label {
   font-family: "Gotham", sans-serif;
   font-size: 36px;
   font-weight: bold;
+  margin-top: -20px;
 }
 
 .dates {
@@ -435,13 +436,16 @@ label {
   border: 3px solid #000000;
   margin-top: 38px;
   margin-left: 58px;
-  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .avg-salary p {
   font-family: "Gotham", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin: 0 !important;
 }
 
 .test-info {
@@ -640,4 +644,14 @@ blockquote p:after {
   height: 802px;
   width: auto;
   background-color: #404040;
+}
+
+@media (max-width: 1475px) {
+  .header h2 {
+    font-family: "Gotham", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 220px;
+    margin-right: 315px;
+  }
 }
