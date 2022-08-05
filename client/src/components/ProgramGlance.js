@@ -14,7 +14,7 @@ const ProgramGlance = (props) => {
           <p>CREDIT HOURS</p>
         </div>
         <div className="program-middle-div">
-          <h2>10</h2>
+          <h2 className="ten">10</h2>
           <p>WEEKS AVERAGE TIME<br />TO COMPLETE</p>
         </div>
       </div>
