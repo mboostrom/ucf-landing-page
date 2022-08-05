@@ -3,6 +3,7 @@ import React from "react"
 const AppDeadline = (props) => {
   return (
     <div className="app-deadline">
+      <div className="app-deadline-container">
       <div className="start-dates">
         <h2 className="date-header">
           <span className="underline">UPCOMING</span> START DATES
@@ -41,6 +42,7 @@ const AppDeadline = (props) => {
             <p>September 12, 2021</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )
