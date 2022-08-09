@@ -36,15 +36,14 @@
 }
 
 .header {
-  background-image: url("images/header-college.png");
+  background-image: url("images/header-ucf.png");
   background-size: fill;
   background-repeat: no-repeat;
-  width: 1788px;
+  width: 100%;
   height: 584px;
-  margin-left: -80px !important;
   margin-top: 0px !important;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: auto;
 }
@@ -54,7 +53,7 @@
   font-size: 41px;
   font-weight: bold;
   margin-bottom: 200px;
-  margin-right: 220px;
+  margin-left: 500px;
 }
 
 .info-form-container{
@@ -659,7 +658,7 @@ blockquote p:after {
   background-color: #404040;
 }
 
-@media (max-width: 1475px) {
+@media (max-width: 1600px) {
   .header {
     background-image: url("images/header-college.png");
     background-size: fill;
@@ -680,5 +679,6 @@ blockquote p:after {
     font-weight: bold;
     margin-bottom: 220px;
     margin-right: 315px;
+    margin-left: 0;
   }
 }
